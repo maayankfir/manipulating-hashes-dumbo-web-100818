@@ -7,7 +7,12 @@ def second_challenge
   }
 
   #code your solution here!
+  values = []
   groceries.each do |k, v|
-   value.values
-end
+      values << v
+    
+  end
+  values.flatten.uniq
+
+
 end
