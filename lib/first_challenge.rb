@@ -20,6 +20,7 @@ def first_challenge
         value.delete("strawberry") if key == (:favorite_icecream_flavors)
         end
       end
+    end
 
   contacts
 end
