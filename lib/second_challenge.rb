@@ -7,6 +7,6 @@ def second_challenge
   }
 
   #code your solution here!
-   groceries.values
+   groceries.each_value {|value| value}
 
 end
